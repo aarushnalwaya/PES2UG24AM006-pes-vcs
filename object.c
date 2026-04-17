@@ -9,6 +9,7 @@
 // PROVIDED functions: compute_hash, object_path, object_exists, hash_to_hex, hex_to_hash
 // TODO functions:     object_write, object_read
 // Read object from disk and verify SHA-256 integrity
+// Objects are stored as <type> <size>\0<data>
 
 
 #include "pes.h"
