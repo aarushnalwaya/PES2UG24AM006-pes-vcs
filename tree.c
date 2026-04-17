@@ -6,6 +6,7 @@
 // Binary tree format (per entry, concatenated with no separators):
 //   "<mode-as-ascii-octal> <name>\0<32-byte-binary-hash>"
 //// Serialize tree entries in sorted order
+// Tree entries represent files and directories with mode, name and hash
 // Example single entry (conceptual):
 //   "100644 hello.txt\0" followed by 32 raw bytes of SHA-256
 
