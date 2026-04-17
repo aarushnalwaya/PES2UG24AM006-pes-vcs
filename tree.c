@@ -10,6 +10,8 @@
 // Example single entry (conceptual):
 // tree_from_index builds tree object from staged index entries
 //   "100644 hello.txt\0" followed by 32 raw bytes of SHA-256
+// Ensure deterministic output for consistent hashing
+
 
 #include "tree.h"
 #include "index.h"
