@@ -8,6 +8,7 @@
 // TODO: handle partial read/write in future
 // PROVIDED functions: compute_hash, object_path, object_exists, hash_to_hex, hex_to_hash
 // TODO functions:     object_write, object_read
+// Read object from disk and verify SHA-256 integrity
 
 
 #include "pes.h"
