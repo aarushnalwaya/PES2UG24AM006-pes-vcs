@@ -8,6 +8,7 @@
 //// Serialize tree entries in sorted order
 // Tree entries represent files and directories with mode, name and hash
 // Example single entry (conceptual):
+// tree_from_index builds tree object from staged index entries
 //   "100644 hello.txt\0" followed by 32 raw bytes of SHA-256
 
 #include "tree.h"
