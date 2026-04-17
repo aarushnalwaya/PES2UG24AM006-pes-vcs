@@ -51,9 +51,9 @@ make test_objects
 
 ### 📸 Screenshot 1A — All tests passing
 
-```
+
 ![1A Output](screenshots/1A.png)
-```
+
 
 ---
 
@@ -63,9 +63,9 @@ make test_objects
 find .pes/objects -type f
 ```
 
-```
+
 ![1B Output](screenshots/1B.png)
-```
+
 
 ---
 
@@ -88,9 +88,9 @@ make test_tree
 
 ### 📸 Screenshot 2A — Tree tests passing
 
-```
+
 ![2A Output](screenshots/2A.png)
-```
+
 
 ---
 
@@ -100,9 +100,9 @@ make test_tree
 xxd "$(find .pes/objects -type f | head -1)" | head -20
 ```
 
-```
+
 ![2B Output](screenshots/2B.png)
-```
+
 
 ---
 
@@ -132,9 +132,9 @@ echo "hello" > file1.txt
 
 ### 📸 Screenshot 3A — init → add → status
 
-```
+
 ![3A Output](screenshots/3A.png)
-```
+
 
 ---
 
@@ -144,9 +144,9 @@ echo "hello" > file1.txt
 cat .pes/index
 ```
 
-```
+
 ![3B Output](screenshots/3B.png)
-```
+
 
 ---
 
@@ -187,9 +187,9 @@ echo "again" >> file1.txt
 ./pes log
 ```
 
-```
+
 ![4A Output](screenshots/4A.png)
-```
+
 
 ---
 
@@ -199,9 +199,9 @@ echo "again" >> file1.txt
 find .pes -type f | sort
 ```
 
-```
+
 ![4B Output](screenshots/4B.png)
-```
+
 
 ---
 
@@ -212,9 +212,9 @@ cat .pes/refs/heads/main
 cat .pes/HEAD
 ```
 
-```
+
 ![4C Output](screenshots/4C.png)
-```
+
 
 ---
 
@@ -230,9 +230,9 @@ make test-integration
 
 ### 📸 Final Screenshot — Integration success
 
-```
+
 ![test Output](screenshots/test.png)
-```
+
 
 ## Q5.1 — Checkout Implementation
 Read .pes/refs/heads/<branch> to get target commit hash
